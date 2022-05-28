@@ -32,10 +32,9 @@ get_library_source() {
     SOURCE_TYPE="TAG"
     ;;
   ffmpeg)
-    SOURCE_REPO_URL="https://github.com/tanersener/FFmpeg"
-    SOURCE_ID="30322ebe3c55d0fb18bea4ae04d0fcaf1f97d27f"
+    SOURCE_REPO_URL="https://github.com/finleyb/FFmpeg"
+    SOURCE_ID="9b28087680917faffbf7081aff6315a83d97a7dd"
     SOURCE_TYPE="COMMIT"
-    SOURCE_GIT_DESCRIBE="n4.5-dev-3393-g30322ebe3c" # git describe --tags
     ;;
   fontconfig)
     SOURCE_REPO_URL="https://github.com/tanersener/fontconfig"
@@ -133,9 +132,9 @@ get_library_source() {
     SOURCE_TYPE="TAG"
     ;;
   libtheora)
-    SOURCE_REPO_URL="https://github.com/tanersener/theora"
-    SOURCE_ID="v1.1.1"
-    SOURCE_TYPE="TAG"
+    SOURCE_REPO_URL=https://github.com/finleyb/theora
+    SOURCE_ID="fc552458ae94f37027329d585c54c6e4ec185838"
+    SOURCE_TYPE="COMMIT"
     ;;
   libuuid)
     SOURCE_REPO_URL="https://github.com/tanersener/libuuid"

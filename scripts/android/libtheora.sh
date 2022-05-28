@@ -28,6 +28,7 @@ fi
   --disable-examples \
   --disable-telemetry \
   --disable-sdltest \
+  --disable-doc \
   ${ASM_OPTIONS} \
   --disable-valgrind-testing \
   --host="${HOST}" || return 1
